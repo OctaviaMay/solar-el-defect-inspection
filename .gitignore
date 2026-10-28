@@ -1,0 +1,10 @@
+# dataset (CC BY-NC-SA, cloned at runtime)
+elpv-dataset/
+
+# large / regenerated artefacts
+outputs/day*/*.keras
+*.h5
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
