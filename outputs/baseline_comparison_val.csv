@@ -1,7 +1,0 @@
-model,group,n,pr_auc,roc_auc,recall_defect,precision_defect,missed_defects,false_rejects
-OpenCV + LogReg (val),all,394,0.744,0.833,0.758,0.588,30,66
-OpenCV + LogReg (val),mono,161,0.808,0.863,0.821,0.639,10,26
-OpenCV + LogReg (val),poly,233,0.709,0.818,0.706,0.545,20,40
-Small CNN (val),all,394,0.298,0.509,1.0,0.315,0,270
-Small CNN (val),mono,161,0.257,0.319,1.0,0.348,0,105
-Small CNN (val),poly,233,0.334,0.542,1.0,0.292,0,165
