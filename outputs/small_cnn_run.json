@@ -1,0 +1,44 @@
+{
+  "seed": 42,
+  "img_size": 224,
+  "defect_cutoff": 0.5,
+  "batch_size": 32,
+  "epochs_run": 7,
+  "lr": 0.001,
+  "preprocess": "CLAHE(2.0,8x8)+median3",
+  "val_metrics": [
+    {
+      "model": "Small CNN (val)",
+      "group": "all",
+      "n": 394,
+      "pr_auc": 0.298,
+      "roc_auc": 0.509,
+      "recall_defect": 1.0,
+      "precision_defect": 0.315,
+      "missed_defects": 0,
+      "false_rejects": 270
+    },
+    {
+      "model": "Small CNN (val)",
+      "group": "mono",
+      "n": 161,
+      "pr_auc": 0.257,
+      "roc_auc": 0.319,
+      "recall_defect": 1.0,
+      "precision_defect": 0.348,
+      "missed_defects": 0,
+      "false_rejects": 105
+    },
+    {
+      "model": "Small CNN (val)",
+      "group": "poly",
+      "n": 233,
+      "pr_auc": 0.334,
+      "roc_auc": 0.542,
+      "recall_defect": 1.0,
+      "precision_defect": 0.292,
+      "missed_defects": 0,
+      "false_rejects": 165
+    }
+  ]
+}
