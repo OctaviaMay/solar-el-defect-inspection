@@ -1,4 +1,4 @@
 model,group,n,pr_auc,roc_auc,recall_defect,precision_defect,missed_defects,false_rejects
-OpenCV + LogReg,all,394,0.744,0.833,0.758,0.588,30,66
-OpenCV + LogReg,mono,161,0.808,0.863,0.821,0.639,10,26
-OpenCV + LogReg,poly,233,0.709,0.818,0.706,0.545,20,40
+Classical CV baseline,all,394,0.744,0.833,0.758,0.588,30,66
+Classical CV baseline,mono,161,0.808,0.863,0.821,0.639,10,26
+Classical CV baseline,poly,233,0.709,0.818,0.706,0.545,20,40

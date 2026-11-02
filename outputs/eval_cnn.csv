@@ -1,4 +1,7 @@
 model,group,n,pr_auc,roc_auc,recall_defect,precision_defect,missed_defects,false_rejects
-Basic CNN,all,394,0.64,0.782,1.0,0.315,0,270
-Basic CNN,mono,161,0.727,0.815,1.0,0.348,0,105
-Basic CNN,poly,233,0.599,0.762,1.0,0.292,0,165
+cnn_raw,all,394,0.747,0.836,0.71,0.624,36,53
+cnn_raw,mono,161,0.827,0.885,0.75,0.737,14,15
+cnn_raw,poly,233,0.697,0.806,0.676,0.548,22,38
+cnn_clahe,all,394,0.71,0.799,0.976,0.35,3,225
+cnn_clahe,mono,161,0.793,0.853,1.0,0.4,0,84
+cnn_clahe,poly,233,0.68,0.767,0.956,0.316,3,141

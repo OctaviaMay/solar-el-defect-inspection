@@ -1,0 +1,13 @@
+model,group,n,threshold,pr_auc,roc_auc,recall_defect,precision_defect,missed_defects,false_rejects
+Classical CV baseline,all,394,0.12,0.738,0.802,0.967,0.348,4,223
+Classical CV baseline,mono,161,0.12,0.785,0.83,1.0,0.39,0,86
+Classical CV baseline,poly,233,0.12,0.709,0.782,0.941,0.318,4,137
+cnn_raw,all,394,0.15,0.728,0.805,0.951,0.367,6,202
+cnn_raw,mono,161,0.15,0.775,0.832,1.0,0.393,0,85
+cnn_raw,poly,233,0.15,0.694,0.785,0.912,0.346,6,117
+cnn_clahe,all,394,0.43,0.668,0.761,0.967,0.325,4,247
+cnn_clahe,mono,161,0.43,0.758,0.823,1.0,0.372,0,93
+cnn_clahe,poly,233,0.43,0.629,0.726,0.941,0.294,4,154
+mobilenetv2,all,394,0.17,0.869,0.909,0.967,0.465,4,137
+mobilenetv2,mono,161,0.17,0.879,0.912,0.964,0.491,2,55
+mobilenetv2,poly,233,0.17,0.863,0.906,0.971,0.446,2,82
