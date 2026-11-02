@@ -1,0 +1,54 @@
+{
+  "best_model": "mobilenetv2",
+  "use_clahe": false,
+  "img_size": 224,
+  "seed": 42,
+  "defect_cutoff": 0.5,
+  "epochs_head": 15,
+  "epochs_finetune": 25,
+  "lr_head": 0.001,
+  "lr_finetune": 1e-05,
+  "unfreeze_layers": 40,
+  "cost_missed_defect": 10.0,
+  "cost_false_reject": 1.0,
+  "threshold": 0.17,
+  "quick_run": false,
+  "test_metrics": [
+    {
+      "model": "mobilenetv2",
+      "group": "all",
+      "n": 394,
+      "threshold": 0.17,
+      "pr_auc": 0.869,
+      "roc_auc": 0.909,
+      "recall_defect": 0.967,
+      "precision_defect": 0.465,
+      "missed_defects": 4,
+      "false_rejects": 137
+    },
+    {
+      "model": "mobilenetv2",
+      "group": "mono",
+      "n": 161,
+      "threshold": 0.17,
+      "pr_auc": 0.879,
+      "roc_auc": 0.912,
+      "recall_defect": 0.964,
+      "precision_defect": 0.491,
+      "missed_defects": 2,
+      "false_rejects": 55
+    },
+    {
+      "model": "mobilenetv2",
+      "group": "poly",
+      "n": 233,
+      "threshold": 0.17,
+      "pr_auc": 0.863,
+      "roc_auc": 0.906,
+      "recall_defect": 0.971,
+      "precision_defect": 0.446,
+      "missed_defects": 2,
+      "false_rejects": 82
+    }
+  ]
+}

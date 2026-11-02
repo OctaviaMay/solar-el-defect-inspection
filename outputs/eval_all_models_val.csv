@@ -1,0 +1,16 @@
+model,group,n,pr_auc,roc_auc,recall_defect,precision_defect,missed_defects,false_rejects,threshold,ms_per_cell,size_mb,train_min
+cnn_raw,all,394,0.747,0.836,0.71,0.624,36,53,,,,
+cnn_raw,mono,161,0.827,0.885,0.75,0.737,14,15,,,,
+cnn_raw,poly,233,0.697,0.806,0.676,0.548,22,38,,,,
+cnn_clahe,all,394,0.71,0.799,0.976,0.35,3,225,,,,
+cnn_clahe,mono,161,0.793,0.853,1.0,0.4,0,84,,,,
+cnn_clahe,poly,233,0.68,0.767,0.956,0.316,3,141,,,,
+Classical CV baseline,all,394,0.744,0.833,0.758,0.588,30,66,,,,
+Classical CV baseline,mono,161,0.808,0.863,0.821,0.639,10,26,,,,
+Classical CV baseline,poly,233,0.709,0.818,0.706,0.545,20,40,,,,
+mobilenetv2,all,394,0.893,0.928,0.831,0.705,21,43,0.5,6.2,23.0,2.7
+mobilenetv2,mono,161,0.913,0.94,0.893,0.676,6,24,0.5,6.2,23.0,2.7
+mobilenetv2,poly,233,0.876,0.916,0.779,0.736,15,19,0.5,6.2,23.0,2.7
+efficientnetb0,all,394,0.892,0.927,0.815,0.716,23,40,0.5,9.4,38.3,4.5
+efficientnetb0,mono,161,0.908,0.932,0.857,0.727,8,18,0.5,9.4,38.3,4.5
+efficientnetb0,poly,233,0.879,0.92,0.779,0.707,15,22,0.5,9.4,38.3,4.5
