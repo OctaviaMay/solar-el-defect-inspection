@@ -2,7 +2,7 @@
 elpv-dataset/
 
 # large / regenerated artefacts
-outputs/day*/*.keras
+outputs/*.keras
 *.h5
 __pycache__/
 .ipynb_checkpoints/

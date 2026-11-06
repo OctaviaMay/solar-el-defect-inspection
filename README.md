@@ -2,7 +2,6 @@
 
 Automated pass/fail inspection of photovoltaic cells from **electroluminescence (EL) images**, built as a quality-control decision system rather than a benchmark: models compared by missed defects and false rejects, evaluated separately per cell type, with the decision threshold set by business cost.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OctaviaMay/elpv-solar-defect-inspection/blob/main/notebooks/03_transfer_learning.ipynb)
 
 ## Key result
 
